@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zombie Battle Arena</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="ui">
+      <div id="score">Ochko: 0</div>
+      <div id="health-container">
+        <div id="health-bar"></div>
+        <div id="health-text">HP: 10000 / 10000</div>
+      </div>
+    </div>
+    <div id="game-over" class="hidden">
+      <h1>Sizni mag'lub etishdi!</h1>
+      <p id="final-score">Ochko: 0</p>
+      <button onclick="location.reload()">QAYTA BOSHLASH</button>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="index.js"></script>
+  </body>
+</html>
